@@ -1,0 +1,4 @@
+“QuerySelect”:{
+	“prefix”: [“conq”, “dqs”],
+	“body”: [“const ${1:text} = document.query.Selector('#${2:text}');\n$0”]
+}
