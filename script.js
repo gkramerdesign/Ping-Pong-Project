@@ -4,17 +4,6 @@ const reset = document.querySelector("#reset");
 const p1s = document.querySelector("#p1");
 const p2s = document.querySelector("#p2");
 const winS = document.querySelector("#ws");
-
-"Document Query Selector":{
-    "prefix": "dqs",
-    "body": ["const ${1:text} = document.query.Selector('#${2:text}');\n$0"]
-}
-
-"Document Query Selector":{
-	"prefix": "dqs",
-	"body": ["const ${1:text} = document.query.Selector('#${2:text}');\n$0"]
-}
-
 let p1Score=0,
 p2Score=0,
 winningScore=5;
